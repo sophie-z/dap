@@ -1,0 +1,60 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # Set up Python environment
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9' # You can specify the Python version you are using
+
+      # Install dependencies
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      # Check for correct data paths
+      - name: Verify data paths
+        run: |
+          python -c "import os; assert os.path.exists('path/to/your/datafile.csv'), 'Data path is incorrect!'"
+
+      # Auto-format the code with black
+      - name: Auto-format with black
+        run: |
+          pip install black
+          black --check .
+
+      # Lint notebooks with nbqa
+      - name: Lint Jupyter Notebooks
+        run: |
+          pip install nbqa
+          nbqa flake8 .
+
+      # Document the package versions used
+      - name: Document environment
+        run: |
+          pip freeze > requirements.txt
+          echo "The current environment has been documented in requirements.txt"
+
+      # Optionally, you can commit the updated requirements.txt back to the repository if needed
+      - name: Commit updated requirements
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add requirements.txt
+          git commit -m "Update requirements.txt with current package versions"
+          git push
+        if: always() # This ensures the step runs even if the previous steps fail
