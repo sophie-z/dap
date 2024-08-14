@@ -18,7 +18,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9' # You can specify the Python version you are using
+          python-version: '3.9' #  specify the Python version you are using
 
       # Install dependencies
       - name: Install dependencies
@@ -29,7 +29,7 @@ jobs:
       # Check for correct data paths
       - name: Verify data paths
         run: |
-          python -c "import os; assert os.path.exists('path/to/your/datafile.csv'), 'Data path is incorrect!'"
+          python -c "import os; assert os.path.exists('DAP_2022_HLES_health_condition_v1.0.csv'), 'Data path is incorrect!'"
 
       # Auto-format the code with black
       - name: Auto-format with black
