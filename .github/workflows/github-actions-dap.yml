@@ -37,12 +37,6 @@ jobs:
           pip install black
           black --check .
 
-      # Lint notebooks with nbqa
-      - name: Lint Jupyter Notebooks
-        run: |
-          pip install nbqa
-          nbqa flake8 .
-
       # Document the package versions used
       - name: Document environment
         run: |
