@@ -1,10 +1,10 @@
-# Project Title
+# From Paws to People: A Statistical Assessment of Health Trajectories in Common Dog Breeds to Inform Human Aging 
 
 Simple overview of use/purpose.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+A partial replication of Forsyth et al. (2023)'s 'Lifetime prevalence of owner-reported medical conditions in the 25 most common dog breeds in the Dog Aging Project pack,' with additional questions and analysis. 
 
 ## Getting Started
 
@@ -42,11 +42,7 @@ ex. [@DomPizzie](https://twitter.com/dompizzie)
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
+n/a
 
 ## License
 
