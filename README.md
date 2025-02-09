@@ -1,6 +1,4 @@
-# From Paws to People: A Statistical Assessment of Health Trajectories in Common Dog Breeds to Inform Human Aging 
-
-Simple overview of use/purpose.
+# From Paws to People: A Statistical Assessment of Health Trajectories in Common Dog Breeds  
 
 ## Description
 
@@ -37,16 +35,6 @@ command to run if program contains helper info
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-n/a
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
