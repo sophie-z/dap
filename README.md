@@ -24,20 +24,10 @@ A partial replication of Forsyth et al. (2023)'s 'Lifetime prevalence of owner-r
 code blocks for commands
 ```
 
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
 ## Authors
 
-Contributors names and contact info
-
+Sophie Zeng
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
-* ex
-* ex
+My deepest gratitude to Hui Xin for taking me under her wing and inspiring me to pursue this project! 
