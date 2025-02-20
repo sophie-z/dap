@@ -1,28 +1,12 @@
-# From Paws to People: A Statistical Assessment of Health Trajectories in Common Dog Breeds  
+# From Paws to People: A Statistical Assessment of the Impact of Demographic Factors on Health Outcomes in Companion Dogs
 
 ## Description
 
-A partial replication of Forsyth et al. (2023)'s 'Lifetime prevalence of owner-reported medical conditions in the 25 most common dog breeds in the Dog Aging Project pack,' with additional questions and analysis. 
+A partial replication of Forsyth et al. (2023)'s 'Lifetime prevalence of owner-reported medical conditions in the 25 most common dog breeds in the Dog Aging Project pack,' with additional original questions and analysis. 
 
-## Getting Started
+### Requirements
 
-### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+* pip install numpy pandas matplotlib seaborn scikit-learn statsmodels openpyxl ipython
 
 ## Authors
 
