@@ -4,9 +4,9 @@
 
 A partial replication of Forsyth et al. (2023)'s 'Lifetime prevalence of owner-reported medical conditions in the 25 most common dog breeds in the Dog Aging Project pack,' with additional original questions and analysis. 
 
-### Requirements
+## Requirements
 
-* pip install numpy pandas matplotlib seaborn scikit-learn statsmodels openpyxl ipython
+pip install -r requirements.txt
 
 ## Authors
 
