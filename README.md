@@ -2,15 +2,15 @@
 
 ## Description
 
-This study identifies the prevalence of common health conditions in mixed breed and purebred dogs and analyzes their correlation to demographic and health factors like sex, neuter status, size, and age.
+Companion dogs share robust genetic and environmental traits with humans, yet breed-specific health risks remain underexplored, and veterinary studies often lack replication. This study identifies the prevalence of common health conditions in mixed-breed and purebred dogs and analyzes their correlation to demographic factors like sex, neuter status, size, and age.
 
-A ‘replication crisis’ affects many scientific fields—novelty is emphasized over reproducibility. Thus, this study leverages the open-source Dog Aging Project and partially replicates a cross-sectional study: “Lifetime prevalence of owner-reported medical conditions in the 25 most common dog breeds in the Dog Aging Project pack” (Forsyth et al. 2023).
+A ‘replication crisis’ plagues many scientific fields—novelty is emphasized over replicability/reproducibility. Thus, using The Dog Aging Project’s open-source data, this study partially replicates “Lifetime prevalence of owner-reported medical conditions in the 25 most common dog breeds in the Dog Aging Project pack” by Forsyth et al. (2023), comparing results with a Jaccard index of 0.7576, indicating high similarity and reinforcing findings.
 
-Then, this project utilizes Python packages to perform original mathematical analyses of numeric data to further study the relationship between the most common health conditions and demographic factors. A binomial model with logit link was employed to calculate the log-odds ratios of common medical conditions, and a significance threshold of α = 0.05 was applied for hypothesis testing with Bonferroni correction to adjust for multiple comparisons. Incorporating domain-specific knowledge, the model was refined to include three one-way interactions for predicting key health outcomes. 
+Then, this project utilizes Python packages to perform original mathematical analyses to further study the importance of demographic factors. A binomial model with logit link was employed to calculate log-odds ratios, with an α=0.05 significance threshold for hypothesis testing and Bonferroni correction to adjust for multiple comparisons. Incorporating domain-specific knowledge, the model was refined to three independent interaction terms for predicting key health outcomes. 
 
-Results show purebreds are more susceptible to 19 of 30 conditions, while mixed breeds are more prone to 11. Age is statistically significant in predicting 13 conditions, size in 6, and neuter status in none. These results inform health professionals and owners of breed/size/age/sex-specific risks, allowing for personalized medicine. Some concerns require study design changes and further data collection.
+Purebreds showed higher susceptibility to 19 conditions and mixed-breeds to 11. Age is statistically discernible in predicting 13 conditions, size in 6, and neuter status in none. These results inform health professionals and owners of breed/size/age/sex-specific risks, allowing for personalized medicine. 
 
-This research addresses the ‘replication crisis’ in applied statistics and advances understanding of dog health, enabling more preventive ‘Medicine 3.0’ for our furry friends. Because companion dogs share genetic traits and environments with humans, studying their health trajectories also holds future potential in expanding our knowledge of human aging.
+This study addresses the ‘replication crisis’ in applied statistics and advances understanding of canine health, enabling more preventive ‘Medicine 3.0’ for canines. As companion dogs share genetic traits and environments with humans, studying their health trajectories also holds potential in expanding our knowledge of human aging.
 
 ## Requirements
 
